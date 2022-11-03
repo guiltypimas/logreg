@@ -1,0 +1,47 @@
+/* ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ================ */
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+/* ===================== */
+.block {
+  min-height: 200px;
+}
+
+.form_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+  background: #eee;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 10px #33333333;
+}
+
+.button_form {
+  width: 300px;
+  margin: 10px 0 0 0;
+}
+
+.block_form {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+/* ======================= */
+.text_form {
+  width: 300px;
+  margin: 10px 0 0 0;
+}

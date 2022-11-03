@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+  </head>
+  <body>
+    <div class="countainer">
+      <div class="block"></div>
+      <a href="../sing_up/sing_up.html"> Зарегестриироваться </a>
+      <form class="form_wrapper" action="what" method="post">
+        <div class="text_form">Username</div>
+        <label for="">
+          <input
+            class="block_form"
+            id="username"
+            type="name"
+            placeholder="name or Email "
+          />
+        </label>
+        <div class="text_form">Password</div>
+        <label for="">
+          <input
+            class="block_form"
+            id="password"
+            type="password"
+            placeholder="Password"
+          />
+        </label>
+        <label for="">
+          <input class="button_form" type="submit" value="Sing in" />
+        </label>
+      </form>
+    </div>
+  </body>
+
+  <!-- ============Style==================  -->
+  <style>
+    /* ================ */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* ================ */
+
+    body {
+      max-width: 900px;
+      margin: auto;
+    }
+    /* ===================== */
+    .block {
+      min-height: 200px;
+    }
+
+    .form_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px;
+      width: 400px;
+      margin: auto;
+      background: #eee;
+      border-radius: 15px;
+    }
+
+    .button_form {
+      width: 300px;
+      margin: 10px 0 0 0;
+    }
+
+    .block_form {
+      width: 300px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #333;
+    }
+
+    /* ======================= */
+    .text_form {
+      width: 300px;
+      margin: 10px 0 0 0;
+    }
+  </style>
+  <!--  -->
+</html>
